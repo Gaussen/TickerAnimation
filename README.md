@@ -1,5 +1,9 @@
-![](https://github.com/robinhood/ticker/blob/master/assets/ticker_main.gif)
 
+
+![](assets/ticker_main.gif)
+
+The guide is created based on 
+@Copyright [Robinhood](https://github.com/robinhood)
 What is Ticker?
 ===============
 
@@ -78,6 +82,11 @@ tickerView.setGravity(Gravity.START);
 Note that you can also specify `android:textColor` and `android:textSize` attributes using
 `android:textAppearance` and provide it with an appropriate style.
 
+
+Use in code
+```java
+tickerView.setText(Integer.toString(count), true);
+```
 
 Performance
 -----------
